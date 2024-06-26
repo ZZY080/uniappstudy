@@ -1,1 +1,5 @@
+// 全局scss变量便于维护和主题设置
 @import '@/uni_modules/uni-scss/variables.scss';
+// 设置整个项目的背景色
+$global-background-color:rgba(0,0,0,0.1);
+$global-font-size:24rpx;
