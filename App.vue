@@ -5,7 +5,8 @@
 		},
 		onShow: function() {
 			
-			uni.setStorageSync('uid', this.nanoid())
+			uni.setStorageSync('uid', this.nanoid());
+			// uni.setStorageSync("avatar",)
 		},
 		onHide: function() {
 			
